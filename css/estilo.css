@@ -1,0 +1,75 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fonte-estilizada-titulo-h1 {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } 
+
+/* seletor por tag */
+p {
+    color: #6A5ACD;
+    font-size: 14px;
+    background-color: #FFD700;
+}
+
+/* seletor por id */
+#fomulario {
+    color: #8B0000;
+    font-size: 16px;
+    background-color: #E6E6FA;
+}
+
+/* seletor por classe */
+.fundo_rosa {
+    color: #fff;
+    font-size: 16px;
+    background-color: #DB7093;
+}
+
+.link_branco {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link_branco:hover{
+    color: #6A5ACD;
+    font-size: 20px;
+}
+
+.container { 
+    border: 1px solid red ;
+    padding: 20px;
+    margin: 20px;
+}
+
+.img-container{ 
+     border: 1px solid blue ;
+         padding: 20px;
+
+}
+
+.imagens{
+    width:50vh;
+    height: auto;
+}
+
+.borda-amarela{
+    border-width: 5px;
+    border-style: dotted;
+    border-top-color: yellow;
+    border-left-color: magenta;
+    border-top-style: solid;
+    border-left-style: double;
+}
+
+.borda-rosa{
+    border: 4px dotted pink;
+}
+
+.alinhamento-central{
+    margin: 0 auto;
+    display: table;
+}

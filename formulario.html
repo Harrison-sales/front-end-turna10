@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Formulário</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <div id="fomulario">
+        <h3>Lista de Presença</h3>
+        <p>Preencha este fomulário com seus dados pessoais.</p>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <div>
+                    <label for="nomeDeUsuario">Nome de usuário</label>
+                    <input type="text" name="nomeDeUsuario" placeholder="Digite o nome do usuário.">
+                </div>
+                <div>
+                    <label for="emailDoUsuario">Email do usuário</label>
+                    <input type="email" name="emailDoUsuario" placeholder="Digite o email do usuário.">
+                </div>
+                <div>
+                    <label for="campoDeTextoLivre">Mensagem</label>
+                    <textarea name="campoDeTextoLivre" id="campoDeTextoLivre" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="meuPais">Meu País</label>
+                    <select name="meuPais" id="meuPais" >
+                        <option value="">Escolha um país</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="uruguai">Uruguai</option>
+                        <option value="Paraguai">Paraguai</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Bolivia">Bolivia</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div id="linkVoltar" class="fundo_rosa">
+        <a href="index.html" class="link_branco">Voltar</a>
+    </div>
+</body>
+
+</html>
